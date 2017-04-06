@@ -1,0 +1,3 @@
+rootProject.name = 'reactofolio'
+
+include ':app'
