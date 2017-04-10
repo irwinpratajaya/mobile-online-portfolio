@@ -6,7 +6,7 @@ export const getPost = results => ({
 
 export const fetchPosts = () => {
   return (dispatch) => {
-    fetch('http://localhost:4000/posts', {
+    fetch('https://api.myjson.com/bins/1h27gn', {
       method: 'get',
     })
     .then(result => {

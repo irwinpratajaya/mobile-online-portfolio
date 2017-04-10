@@ -10,10 +10,10 @@ const Foot = () => {
     <Footer >
       <FooterTab>
         <Button active>
-          <Text>HOME</Text>
+          <Icon name='home' />
         </Button>
         <Button>
-          <Text>Profile</Text>
+          <Icon name='person' />
         </Button>
       </FooterTab>
     </Footer>

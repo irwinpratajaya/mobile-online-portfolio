@@ -12,14 +12,15 @@ class Konten extends Component {
   }
 
   componentDidMount() {
+    console.log('---------------asdasdasd-----------');
     fetch('https://api.myjson.com/bins/1h27gn')
     .then((response) => {
-      console.log('hello');
+      console.log('ini setelah fetch : hello');
       return response.json()
     })
     .then(data => {
       console.log(data);
-      this.fetchPost(data.posts)
+      this.props.fetchPosts(data.posts)
     })
     .catch(err => { console.log(err) })
   }
@@ -27,28 +28,19 @@ class Konten extends Component {
   render() {
     return (
       <Content>
-        { [1,2,3,4,5,6,7].map( (index, item) => {
+        { this.props.posts.posts.map( (index, item) => {
             return (
               <Card key={index}>
                 <CardItem>
                   <Left>
                     <Thumbnail source={{uri: 'http://cdn.lifebuzz.com/images/44788/lifebuzz-bb2f8f6ac0588777187234520ea63550-limit_2000.jpg'}} />
                       <Body>
-
                         <Text>
-                          Irwin
-
+                          Santai di Pantai
                         </Text>
-
-                        <Text note>GeekyAnts</Text>
+                        <Text note>Irwin</Text>
                       </Body>
                   </Left>
-                </CardItem>
-
-                <CardItem>
-                  <Text>
-                    Santai di pantai
-                  </Text>
                 </CardItem>
 
                 <CardItem cardBody>
