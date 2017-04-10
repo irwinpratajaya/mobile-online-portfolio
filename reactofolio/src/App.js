@@ -7,7 +7,7 @@ export default class reactofolio extends Component {
   render() {
     return (
       <Navigator
-        initialRoute={{ title: 'home', newsobj: {} }}
+        initialRoute={{ title: 'home', contentobj: {} }}
         renderScene={(route, navigator) => {
           switch (route.title) {
             case 'home':

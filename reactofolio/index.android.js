@@ -4,15 +4,22 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React from 'react';
 import { AppRegistry } from 'react-native';
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
 
 import App from './src/App'
+import rootReducer from './src/reducers/index'
 
-export default class reactofolio extends Component {
+const store = createStore(rootReducer)
+
+export default class reactofolio extends React.Component {
   render() {
     return (
-      <App />
+      <Provider store={store}>
+        <App />
+      </Provider>
     );
   }
 }

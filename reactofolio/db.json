@@ -2,41 +2,52 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode",
+      "title": "santai di pantai",
+      "author": "irwin",
+      "content": "Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.",
+      "image": "",
       "likes": 0
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode",
+      "title": "badai pasti berlalu",
+      "author": "irwin",
+      "content": "Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.",
+      "image": "",
       "likes": 0
     },
     {
       "id": 3,
-      "title": "json-server",
-      "author": "typicode",
+      "title": "malu-malu kucing",
+      "author": "irwin",
+      "content": "Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.",
+      "image": "",
       "likes": 0
     },
     {
       "id": 4,
-      "title": "json-server",
-      "author": "typicode",
+      "title": "oh my god....!",
+      "author": "irwin",
+      "content": "Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.",
+      "image": "",
       "likes": 0
     }
   ],
-  "profile": [
+  "user": [
     {
       "id": 1,
-      "username": "irwin"
+      "username": "irwin",
+      "profile_picture": ""
     },
     {
       "id": 2,
-      "username": "endy"
+      "username": "endy",
+      "profile_picture": ""
     },
     {
       "id": 3,
-      "username": "handoko"
+      "username": "handoko",
+      "profile_picture": ""
     }
   ]
 }
